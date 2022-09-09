@@ -1,0 +1,57 @@
+body{
+    background: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.envoltorio{
+    flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ticket{
+    height: fit-content;
+    max-width: 320px;
+    background: white;
+    padding: 17px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px #cfdbe9;
+}
+.img-qr{
+    width: 100%;
+    border-radius: 10px;
+}
+h2{
+    color:hsl(218, 44%, 22%);
+    text-align: center;
+    padding: 18px 5px;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+}
+p{
+    color:hsl(220, 15%, 55%);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 28px 18px;
+    margin: 0;
+}
+.attribution {
+    width: 100vw;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
